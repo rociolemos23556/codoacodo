@@ -1,0 +1,204 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+/* Estilos para la imagen del logo */
+.navbar-brand img {
+    width: 80px; 
+    height: auto; 
+}
+
+/* Encabezado con imagen y texto */
+
+.encabezado {
+ 
+    position: relative;
+    text-align: center;
+}
+
+/* Estilo para la imagen del encabezado en dispositivos de escritorio */
+.encabezado-imagen {
+    width: 100%;
+    height: auto;
+    max-height: 900px; 
+}
+
+.texto-superpuesto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    max-width: 80%;
+}
+
+.texto-superpuesto h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.texto-superpuesto p {
+    font-size: 18px;
+}
+/* Estilos generales */
+body {
+    font-family: "Poppins" , sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ancho/alto automático para que queden iguales las cards */
+.img-card {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit:contain;
+}
+
+/* Estilos para la sección "Encontrémonos" */
+.seccion-responsiva {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "contenido" "imagen";
+    background-color: #ffffff;
+    padding-top:5px;
+    padding-block-end: 50px;
+    text-align: center;
+}
+
+.contenido {
+    grid-area: contenido;
+    text-align: center;
+    padding-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.contenido h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 22px;
+}
+
+.contenido p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.boton-rojo {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+img {
+    grid-area: imagen;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos responsivos */
+@media (min-width: 769px) {
+    .seccion-responsiva {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "contenido imagen";
+    }
+}
+
+/* Estilos para el formulario */
+.formulario {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+.formulario h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.formulario p {
+    font-size: 16px;
+    color: #555;
+}
+
+.formulario form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.campo {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.campo label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.campo input,
+.campo textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.boton-rojo {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .formulario form {
+        max-width: 100%;
+    }
+}
+
+/* Estilos para el footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.enlaces ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.enlaces ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.enlaces ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .enlaces ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}

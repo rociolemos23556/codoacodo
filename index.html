@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- icono -->
+  <link rel="icon" type="image/png" href="../img/ted.png">
+  <title>TED Argentina</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <!-- Contenedor del logo -->
+      <div class="navbar-brand">
+        <img src="../img/TEDlogo.png" alt="Logo TED Argentina">
+      </div>
+      <!-- Botón de alternancia para dispositivos móviles -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Elementos de la barra de navegación -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">TEDxArgentina</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Conviértete en orador</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Encabezado con imagen y texto -->
+  <header class="encabezado">
+    <img src="img/TEDgenérico.avif" alt="Presentación TED" class="encabezado-imagen">
+    <div class="texto-superpuesto">
+      <h1>TEDxArgentina</h1>
+      <br>
+      <p>Llegamos al país para dar visibilidad a las mentes más creativas y brillantes de toda Argentina. </p>
+    </div>
+  </header>
+  <!-- sección de cards -->
+  <!-- dos filas, cuatro columnas (para el título y para las cards) -->
+  <!-- cada card se alinea al centro -->
+  <section class="container mt-5 mb-5 border-1">
+    <!-- fila título -->
+    <div class=" row mb-5">
+      <div class="col-12 text-center">
+        <H4>CONOCÉ A LOS</H4>
+        <H2>ORADORES</H2>
+      </div>
+      <div class="row">
+        <!-- columna orador 1 -->
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 border-1">
+          <div class="card border-secondary m-2 mx-auto" style="width: 18rem;">
+            <img src="./img/Ponente 1.jpg" class="card-img-top img-card rounded-1" alt="Orador 1">
+            <div class="card-body">
+              <br>
+              <h5 class="card-title">Ernesto Ingaramo</h5>
+              <p class="cad-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nulla eveniet
+                dignissimos non totam, tempora vitae laborum officiis qui delectus ab maiores, rerum, dolorem aperiam
+                eos fuga distinctio molestias porro.</p>
+            </div>
+          </div>
+        </div>
+        <!-- columna orador 2 -->
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 border-1">
+          <div class="card border-secondary m-2 mx-auto" style="width: 18rem;">
+            <img src="./img/Ponente 2.jpg" class="card-img-top img-card rounded-1" alt="Orador 2">
+            <div class="card-body">
+              <br>
+              <h5 class="card-title">Juan Mantesano</h5>
+              <p class="cad-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nulla eveniet
+                dignissimos non totam, tempora vitae laborum officiis qui delectus ab maiores, rerum, dolorem aperiam
+                eos fuga distinctio molestias porro.</p>
+            </div>
+          </div>
+        </div>
+        <!-- columna orador 3 -->
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 border-1">
+          <div class="card border-secondary m-2 mx-auto" style="width: 18rem;">
+            <img src="./img/Ponente 3.jpg" class="card-img-top img-card rounded-1" alt="Orador 3">
+            <div class="card-body">
+              <br>
+              <h5 class="card-title">María Valtesori</h5>
+              <p class="cad-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nulla eveniet
+                dignissimos non totam, tempora vitae laborum officiis qui delectus ab maiores, rerum, dolorem aperiam
+                eos fuga distinctio molestias porro.</p>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!-- Sección Encontrémonos -->
+  <section class="seccion-responsiva">
+    <div class="contenido">
+      <h2>Encontrémonos</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequatur qui quos vel placeat voluptatum
+        facere ipsum porro asperiores. Aut aliquam quam ex eius odit animi iure sapiente laborum ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quisquam nulla, natus quod sunt eum in sed officia architecto animi repellat fuga vitae aut consectetur nostrum aliquam incidunt laborum impedit. Illo consequatur molestiae, voluptates doloremque voluptatem maxime deserunt quam eum quaerat earum, ex provident laborum cum, quibusdam animi quasi numquam rerum. Iusto explicabo in fugit optio nemo nostrum autem tempore enim eius, consequatur eveniet nihil ducimus magnam quam, sapiente, nisi aspernatur animi minus odit distinctio tempora accusamus velit perspiciatis! Obcaecati labore doloribus nam soluta quis natus minus ipsa.</p>
+      <button class="boton-rojo">Ver más</button>
+    </div>
+    <img src="img/Conferencia.jpg" alt="CharlasTED personas reunidas">
+  </section>
+
+  <!-- Formulario para convertirse en orador -->
+  <section class="formulario">
+    <h2>Conviértete en orador</h2>
+    <p>Anótate como orador para dar una charla TED. ¡Cuéntanos de qué quieres hablar!</p>
+    <form>
+      <div class="campo">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+      </div>
+      <div class="campo">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required>
+      </div>
+      <div class="campo">
+        <label for="tema">Tema de la charla:</label>
+        <textarea id="tema" name="tema" rows="4" placeholder="Escribe sobre qué quieres hablar" required></textarea>
+      </div>
+      <button type="submit" class="boton-rojo">Enviar</button>
+    </form>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+<footer class="footer">
+  <nav class="enlaces">
+      <ul>
+          <li><a href="conferencias.html">ConferenciasTEDxArgentina</a></li>
+          <li><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+          <li><a href="terminos-condiciones.html">Términos y Condiciones</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+  </nav>
+</footer>
+</html>
